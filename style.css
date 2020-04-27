@@ -1,5 +1,6 @@
 body {
-  background-color: #d1cdc2;
+  /* background-color: black; */
+  /* background-color: #d1cdc2; */
   margin: 0;
 }
 
@@ -7,18 +8,25 @@ body {
   position: fixed;
   text-align: left;
   margin-left: 4%;
+  color: #696969;
   width: 100%;
+  z-index:20;
 }
 
 .grid {
-  margin: 0 5% 0 50%;
+  margin: 0 5% 0 60%;
   background-color: white;
+  z-index:10;
+  position:relative;
+  box-shadow: 0px 0px 12px 10px rgba(255,255,255,1);
+
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  margin: 0;
+
+#backgrndImg{
+  opacity: 97%;
+  position:fixed;
+
 }
 
 @media only screen and (max-width: 700px) {
